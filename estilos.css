@@ -1,0 +1,29 @@
+body{
+    background-color:mediumspringgreen;
+    
+}
+form{
+	width:400px;
+	margin:auto;
+    
+}
+h2{
+    width:500px;
+	margin:auto; 
+    margin-bottom: 30px;
+}
+label,
+input {
+
+  display: inline-block;
+  margin-top: 10px; 
+  
+}
+label {
+  width: 30%;
+  text-align: left;
+}
+.buttonHolder{ text-align: center; margin-top: 10px;}
+input[type=checkbox] {
+    margin-left: 75px;
+  }
