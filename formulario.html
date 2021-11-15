@@ -5,20 +5,23 @@
         <meta charset="UTF-8">
     </head>
     <body>
+        <script src="script.js"></script>
         <h2>Introducir los campos de las personas</h2>
-        <form action="">
+        <form id=formulario>
+            <input type="hidden" id="id">
             <label for="Usuario">Usuario</label> <input type="text" name="usuario">
             <label for="Apellido">Apellido</label> <input type="text" name="apellido">
             <label for="Contraseña">Contraseña</label> <input type="password" name="contraseña">
+            <label for="Nombre">Nombre</label> <input type="text" name="nombre">
             <label for="Email de la compañia ">Email de la compañia</label> <input type="email" name="emailCompañia">
             <label for="Email personal">Email personal</label> <input type="email" name="emailPersonal">
             <label for="Ciudad">Ciudad</label> <input type="text" name="Ciudad">
             <label for="url de la imagen">url de la imagen</label> <input type="url" name="urlImagen">
-            <label for="Fecha creacion">Fecha creacion</label> <input type="date" name="fechaCreacion"><br>
+            <label for="Fecha creacion">Fecha creacion</label> <input type="datetime" name="fechaCreacion"><br>
             <label for="Activado">Activado</label> <input type="checkbox" name="activado"><br>
-            <label for="Fecha finalizacion">Fecha finalizacion</label> <input type="date" name="fechaFinalizacion">
+            <label for="Fecha finalizacion">Fecha finalizacion</label> <input type="datetime" name="fechaFinalizacion">
             <div class="buttonHolder">
-                <input type="submit" value="Editar"> <input type="submit" value="Limpiar">
+                <input type="submit" id="Editar" value="Editar"> <input type="submit" id="Limpiar" value="Limpiar">
             </div>
         </form>
     </body>
